@@ -37,4 +37,4 @@ const cleaner = {
 
 const build = { name: '@build', triggers: tron.parallel(copyer, cleaner) }
 
-module.exports = tron.createProject(build, {prefix}).addCleaner();
+tron.createProject(build, {prefix}).addCleaner();

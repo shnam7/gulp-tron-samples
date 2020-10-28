@@ -35,7 +35,7 @@ const panini = {
 
 const build = { name: '@build', triggers: panini }
 
-module.exports = tron.createProject(build, {prefix})
+tron.createProject(build, {prefix})
     .addWatcher({
         browserSync: {
             server: upath.resolve(destRoot),

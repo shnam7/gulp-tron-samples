@@ -88,7 +88,7 @@ const build = {
     clean: destRoot
 }
 
-module.exports = tron.createProject(build, {prefix})
+tron.createProject(build, {prefix})
     .addWatcher({
         browserSync: {
             server: upath.resolve(destRoot),

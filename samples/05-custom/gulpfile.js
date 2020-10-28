@@ -77,4 +77,4 @@ const build = {
     name: '@build',
     triggers: tron.parallel(customExt, customBuilder, customCSSBuilder, customFunctionBuilder, importedCustomBuilder) }
 
-module.exports = tron.createProject(build, {prefix, customBuilderDirs}).addCleaner()
+tron.createProject(build, {prefix, customBuilderDirs}).addCleaner()

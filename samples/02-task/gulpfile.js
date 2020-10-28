@@ -69,4 +69,4 @@ const main = {
     triggers: [cmd1, cmd2]  // run in series
 }
 
-module.exports = tron.createProject({build1, build2, simpleTask, cmd1, cmd2, main}, {prefix})
+tron.createProject({build1, build2, simpleTask, cmd1, cmd2, main}, {prefix})

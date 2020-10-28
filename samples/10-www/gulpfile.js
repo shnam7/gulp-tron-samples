@@ -56,7 +56,7 @@ const build = {
     dependencies: tron.series(tron.parallel(concat, scss, images), zip)
 }
 
-module.exports = tron.createProject(build, { prefix })
+tron.createProject(build, { prefix })
     .addWatcher({
         watch: [upath.join(destRoot, '**/*.html')],  // watch files for reloader (no build actions)
         browserSync: {

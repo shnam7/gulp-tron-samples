@@ -112,7 +112,7 @@ const build = {
 }
 
 
-module.exports = tron.createProject(build, {prefix})
+tron.createProject(build, {prefix})
     .addWatcher({
         watch: [upath.join(destRoot, "**/*.html")],
         browserSync: {

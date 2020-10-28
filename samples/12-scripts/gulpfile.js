@@ -124,7 +124,7 @@ const build = {
 }
 
 
-module.exports = tron.createProject(build, {prefix})
+tron.createProject(build, {prefix})
     .addCleaner()
     .addWatcher({
         watch: [upath.join(destRoot, "**/*.html")],

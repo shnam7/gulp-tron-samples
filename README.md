@@ -20,5 +20,5 @@ npx gulp <task-name>        # run one of tasks from the task list above
 <br><br>
 <p align="center">
   <img class="logo" src="gulp-tron.svg" width="64px">
-  <p align=center>Copyright &copy; 2017, under <a href="./LICENSE">MIT</a></p>
+  <p align=center>Copyright &copy; 2020, under <a href="./LICENSE">MIT</a></p>
 </div>

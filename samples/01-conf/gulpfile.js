@@ -32,4 +32,4 @@ const main = {
     triggers: tron.series(build1, build2)
 };
 
-module.exports = tron.createProject({ build1, build2, main }, {prefix});
+tron.createProject({ build1, build2, main }, {prefix});

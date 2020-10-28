@@ -49,4 +49,4 @@ const watcher = {
 
 const cleaner = { name: '@clean', builder: 'cleaner'};
 
-module.exports = tron.createProject({ build, watcher, cleaner }, { prefix });
+tron.createProject({ build, watcher, cleaner }, { prefix });

@@ -43,4 +43,4 @@ const build = {
     clean: [upath.join(basePath, 'path-dest*')]
 }
 
-module.exports = tron.createProject(build, {prefix}).addCleaner();
+tron.createProject(build, {prefix}).addCleaner();
