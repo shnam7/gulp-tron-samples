@@ -1,2 +1,8 @@
 __*
 node_modules
+
+# 25-jekyll temporaries
+samples/25-jekyll/_site
+samples/25-jekyll/css
+samples/25-jekyll/js
+samples/25-jekyll/.jekyll-*

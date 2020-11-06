@@ -41,7 +41,7 @@ const build = {
 }
 
 const watcher = {
-    name: '@watcher',
+    name: '@watch',
     builder: 'watcher',
     watch: upath.join(destRoot, '**/*.html'),
     browserSync: { server: destRoot }
